@@ -25,7 +25,8 @@ public class CohortTest {
     public void testCohortAddStudent() {
         Student actualStudent = new Student(1l, "Ava");
         actualCohort.addStudent(actualStudent);
-        assertEquals(Arrays.asList(actualStudent), actualCohort.getStudent());
+        assertEquals(Arrays.asList(actualStudent), actualCohort.getStudents());
+
     }
     @Test
     public void testCohortGetStudents() {
